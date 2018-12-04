@@ -17,7 +17,7 @@ namespace _09._Rectangle_Intersection
 
 			for (int i = 0; i < counts[0]; i++)
 			{
-				var tokens = Console.ReadLine()
+				string[] tokens = Console.ReadLine()
 					.Split();
 
 				string id = tokens[0];
@@ -31,7 +31,7 @@ namespace _09._Rectangle_Intersection
 
 			for (int i = 0; i < counts[1]; i++)
 			{
-				var tokens = Console.ReadLine().Split();
+				string[] tokens = Console.ReadLine().Split();
 
 				Rectangle rectangle1 = rectangles.First(r => r.Id == tokens[0]);
 				Rectangle rectangle2 = rectangles.First(r => r.Id == tokens[1]);
